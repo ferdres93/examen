@@ -273,8 +273,11 @@ p{
     .imagen6,
     .imagen7,
     .imagen8 {
-        display: grid;
-        grid-template-columns: repeat(1, 170px)
+        display: block;
+        text-align: center;
+        display: inline-block;
+        margin: 2rem;
+        padding: 1.3rem;
     }
     
 }
